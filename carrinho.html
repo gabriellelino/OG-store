@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho | IG Store</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <header>
+        <h1>IG STORE</h1>
+
+        <div class="menu">
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="carrinho.html">Carrinho</a>
+                <a href="produtos.html">Produtos</a>
+            </nav>
+
+            <div class="botoes">
+                <a href="cadastro.html">Cadastrar</a>
+                <a href="login.html">Entrar</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <h2>Meu Carrinho</h2>
+
+        <div id="produtos-carrinho"></div>
+
+        <div class="total">
+            <h3>Total: <span id="total">R$ 0,00</span></h3>
+        </div>
+
+        <button class="finalizar" type="button" onclick="finalizarCompra()">
+            Finalizar compra
+        </button>
+
+    </main>
+
+    <footer>
+        <h3>IG STORE</h3>
+        <p>Seu estilo, sua essência, seu momento.</p>
+        <p>&copy; 2026 IG Store - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./carrinho.js"></script>
+</body>
+</html>

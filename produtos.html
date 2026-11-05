@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos | IG Store</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+
+    <header>
+        <h1>IG STORE</h1>
+
+        <div class="menu">
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="carrinho.html">Carrinho</a>
+                <a href="produtos.html">Produtos</a>
+            </nav>
+
+            <div class="botoes">
+                <a href="cadastro.html">Cadastrar</a>
+                <a href="login.html">Entrar</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="catalogo">
+
+            <div class="titulo-catalogo">
+                <span>NOVA COLEÇÃO</span>
+                <h2>Encontre seu estilo</h2>
+                <p>Peças selecionadas para acompanhar você em todos os momentos.</p>
+            </div>
+
+            <div class="lista-produtos">
+
+                <article class="produto" data-id="blusa">
+                    <div class="imagem-produto">
+                        <img src="WhatsApp Image 2026-11-05 at 11.22.40.jpeg" alt="Blusa feminina">
+                        <span class="etiqueta">DESTAQUE</span>
+                    </div>
+                    <div class="info-produto">
+                        <p class="categoria-produto">BLUSAS</p>
+                        <h3>Blusa Feminina</h3>
+                        <p class="preco">R$ 59,90</p>
+                        <button class="comprar" type="button" onclick="adicionarAoCarrinho('blusa')">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="produto" data-id="calca">
+                    <div class="imagem-produto">
+                        <img src="WhatsApp Image 2026-11-05 at 11.39.28.jpeg" alt="Calça feminina">
+                    </div>
+                    <div class="info-produto">
+                        <p class="categoria-produto">CALÇAS</p>
+                        <h3>Calça Feminina</h3>
+                        <p class="preco">R$ 89,90</p>
+                        <button class="comprar" type="button" onclick="adicionarAoCarrinho('calca')">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="produto" data-id="vestido">
+                    <div class="imagem-produto">
+                        <img src="WhatsApp Image 2026-11-05 at 11.14.41.jpeg" alt="Vestido feminino">
+                        <span class="etiqueta">NOVO</span>
+                    </div>
+                    <div class="info-produto">
+                        <p class="categoria-produto">VESTIDOS</p>
+                        <h3>Vestido Feminino</h3>
+                        <p class="preco">R$ 99,90</p>
+                        <button class="comprar" type="button" onclick="adicionarAoCarrinho('vestido')">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="produto" data-id="saia">
+                    <div class="imagem-produto">
+                        <img src="WhatsApp Image 2026-11-05 at 11.35.29.jpeg" alt="Saia feminina">
+                    </div>
+                    <div class="info-produto">
+                        <p class="categoria-produto">SAIAS</p>
+                        <h3>Saia Feminina</h3>
+                        <p class="preco">R$ 69,90</p>
+                        <button class="comprar" type="button" onclick="adicionarAoCarrinho('saia')">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="produto" data-id="camiseta">
+                    <div class="imagem-produto">
+                        <img src="WhatsApp Image 2026-11-05 at 10.58.55.jpeg" alt="Camiseta básica">
+                    </div>
+                    <div class="info-produto">
+                        <p class="categoria-produto">BÁSICOS</p>
+                        <h3>Camiseta Básica</h3>
+                        <p class="preco">R$ 49,90</p>
+                        <button class="comprar" type="button" onclick="adicionarAoCarrinho('camiseta')">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="produto" data-id="jorts">
+                    <div class="imagem-produto">
+                        <img src="WhatsApp Image 2026-11-05 at 11.27.12.jpeg" alt="Jorts feminino">
+                    </div>
+                    <div class="info-produto">
+                        <p class="categoria-produto">JORTS</p>
+                        <h3>Jorts Feminino</h3>
+                        <p class="preco">R$ 64,90</p>
+                        <button class="comprar" type="button" onclick="adicionarAoCarrinho('jorts')">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>IG STORE</h3>
+        <p>Seu estilo, sua essência, seu momento.</p>
+        <p>&copy; 2026 IG Store - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./produtos.js"></script>
+</body>
+</html>
